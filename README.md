@@ -38,7 +38,7 @@ python main.py
 
 
 
-## 5. Live Code Output Execution Logs
+## 5. Code Output
 
 Below is a standard stdout transcript demonstrating a successful transaction end-to-end:
 
