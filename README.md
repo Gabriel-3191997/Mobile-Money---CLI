@@ -21,12 +21,6 @@ USSD (Unstructured Supplementary Service Data) remains a critical gateway for di
 *   Persistent database storage (all sessions are memory-bound and transient).
 *   Live SMS confirmation generation.
 
-
-
-## 3. Customer Journey Map (Send Money Flow)
-
-The following state matrix traces the step-by-step user journey from the home screen dialer to a successful transfer confirmation.
-
 `
 ## 4. How to Run the Code
 
