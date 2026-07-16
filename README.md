@@ -21,7 +21,7 @@ USSD (Unstructured Supplementary Service Data) remains a critical gateway for di
 *   Persistent database storage (all sessions are memory-bound and transient).
 *   Live SMS confirmation generation.
 
-`
+
 ## 4. How to Run the Code
 
 The application is written in vanilla Python and requires no external third-party installations or configurations.
