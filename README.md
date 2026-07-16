@@ -1,14 +1,12 @@
-# Technical Documentation: Orange Money USSD Simulation System
-
+# Orange Money USSD CLI
 This document outlines the architectural design, user journey, and operational instructions for the CLI-based **Orange Money USSD Simulation Engine**. This system acts as a high-fidelity, zero-dependency sandbox for testing, training, and demonstrating the USSD mobile financial transaction flow without connecting to live carrier infrastructure.
 
----
+
 
 ## 1. Introduction
 
 USSD (Unstructured Supplementary Service Data) remains a critical gateway for digital financial inclusion, especially across emerging markets. Because testing directly on live GSM networks during early-stage development is costly and logistically complex, this simulation engine replicates the precise behavior, timings, and navigation matrix of the **Orange Money Liberia (`*144#`)** ecosystem. It provides an immediate feedback loop for developers, customer experience (CX) designers, and QA teams.
 
----
 
 ## 2. Project Overview & Scope
 
@@ -23,7 +21,7 @@ USSD (Unstructured Supplementary Service Data) remains a critical gateway for di
 *   Persistent database storage (all sessions are memory-bound and transient).
 *   Live SMS confirmation generation.
 
----
+
 
 ## 3. Customer Journey Map (Send Money Flow)
 
